@@ -16,7 +16,7 @@ namespace Game
             currentBulletLifetime = BullletLifetime;
 		}
 
-		public override void OnUpdate()
+        public override void OnUpdate()
         {
             currentBulletLifetime -= Time.DeltaTime;
 

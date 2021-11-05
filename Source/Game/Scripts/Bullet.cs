@@ -1,4 +1,6 @@
-﻿using System;
+﻿// © 2021 PecisionRender
+
+using System;
 using System.Collections.Generic;
 using FlaxEngine;
 
@@ -14,7 +16,7 @@ namespace Game
 		public override void OnStart()
 		{
             currentBulletLifetime = BullletLifetime;
-		}
+        }
 
         public override void OnUpdate()
         {

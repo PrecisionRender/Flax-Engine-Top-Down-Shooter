@@ -1,0 +1,54 @@
+{
+	"ID": "1c04e8db4075c7a98d2fe2b57e511bb3",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6224,
+	"Data": [
+	{
+		"ID": "f6218480432800b117c9c786a24f7328",
+		"TypeName": "FlaxEngine.CharacterController",
+		"Name": "Enemy",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 55.0,
+				"Z": 0.0
+			}
+		},
+		"Layer": 3,
+		"ContactOffset": 0.0,
+		"Radius": 25.0,
+		"Height": 50.0
+	},
+	{
+		"ID": "295507034fe64abd69bd56b792e0dcda",
+		"TypeName": "Game.Enemy",
+		"ParentID": "f6218480432800b117c9c786a24f7328",
+		"V": {}
+	},
+	{
+		"ID": "c1c3edcc4075c20543ff158dfac0d5c5",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "f6218480432800b117c9c786a24f7328",
+		"Name": "Capsule",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": -50.0,
+				"Z": 0.0
+			}
+		},
+		"Layer": 3,
+		"Model": "3f82e57744f57c28285150b646ad2198",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "735049d543d7a1fb7bc85196a8c751a6",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	}
+]
+}

@@ -1,4 +1,6 @@
-﻿using System;
+﻿// © 2021 PecisionRender
+
+using System;
 using System.Collections.Generic;
 using FlaxEngine;
 
@@ -26,7 +28,6 @@ namespace Game
 					hit.Point.Y = 50;
 
 					bullet.LookAt(hit.Point);
-
 				}
 			}
 		}

@@ -1,11 +1,13 @@
 {
 	"ID": "9eba3d2a4cee4c099117f49c5dffc171",
 	"TypeName": "FlaxEditor.Content.Settings.GameSettings",
-	"EngineBuild": 6222,
+	"EngineBuild": 6224,
 	"Data": {
-	"ProductName": "My Game",
-	"CompanyName": "My Company",
-	"FirstScene": "74a68a984824b4510d12589f199ad68f",
+	"ProductName": "Top-Down Shooter",
+	"CompanyName": "PrecisionRender",
+	"CopyrightNotice": "© 2021 PecisionRender",
+	"Icon": "63693d81468179ebf7283b999fef3983",
+	"FirstScene": "a83cc97c491e2cdb828925b5329d839f",
 	"NoSplashScreen": false,
 	"Time": "9acd18b0496064d35799f390d3a2b374",
 	"Audio": "fc8ef1bb474956920c5505b7ea7ea9ff",

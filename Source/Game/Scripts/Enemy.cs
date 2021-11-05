@@ -1,4 +1,6 @@
-﻿using System;
+﻿// © 2021 PecisionRender
+
+using System;
 using System.Collections.Generic;
 using FlaxEngine;
 
@@ -8,7 +10,8 @@ namespace Game
     {
         [Serialize] [ShowInEditor] float Speed = 200f;
 
-        Actor player;
+        private Actor player;
+        private float lifetime = 0;
 
 		public override void OnStart()
 		{
@@ -27,20 +30,23 @@ namespace Game
 
         public override void OnUpdate()
         {
+            lifetime += Time.DeltaTime;
+
             Actor.LookAt(player.Position);
             Actor.As<CharacterController>().Move(Transform.Forward * Speed * Time.DeltaTime);
         }
 
         private void OnTriggerEnter(PhysicsColliderActor other)
         {
-            if (other.HasTag("Bullet"))
+            if (other.HasTag("Bullet") && lifetime >= 0.5f)
 			{
+                player.GetScript<PlayerController>().EnemyDestroyed();
                 Destroy(other);
                 Destroy(Actor);
             }
-            else if (other.HasTag("Player"))
+            else if (other.HasTag("Player") && lifetime >= 0.5f)
 			{
-                Debug.Log("Game Over!");
+                other.Parent.GetScript<PlayerController>().GameOver();
             }
         }
     }

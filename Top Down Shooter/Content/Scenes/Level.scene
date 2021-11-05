@@ -59,7 +59,10 @@
 					"Mode": 0
 				},
 				"CameraArtifacts": {},
-				"LensFlares": {},
+				"LensFlares": {
+					"OverrideFlags": 1,
+					"Intensity": 0.0
+				},
 				"DepthOfField": {},
 				"MotionBlur": {},
 				"SSR": {},
@@ -124,11 +127,12 @@
 			"Transform": {
 				"Translation": {
 					"X": 0.0,
-					"Y": 50.0,
+					"Y": 55.0,
 					"Z": 0.0
 				}
 			},
 			"Layer": 1,
+			"Tag": "Player",
 			"Radius": 25.0,
 			"Height": 50.0
 		},
@@ -154,7 +158,7 @@
 			"Transform": {
 				"Translation": {
 					"X": 0.0,
-					"Y": -45.30801773071289,
+					"Y": -50.0,
 					"Z": 0.0
 				}
 			},
@@ -163,6 +167,59 @@
 				"Entries": [
 					{
 						"Material": "d10dd96f43e19032866eb09ec4717d7a",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "5536cf3f45392cce05eecc9b9455c450",
+			"TypeName": "FlaxEngine.CapsuleCollider",
+			"ParentID": "e39c4c3e4d20ccf13763a3bc80d054e1",
+			"Name": "CapsuleCollider"
+		},
+		{
+			"ID": "12bfba5248b1df5795c7d385e253800f",
+			"TypeName": "FlaxEngine.CharacterController",
+			"ParentID": "698c1109471059c935265b8fd017fef0",
+			"Name": "Enemy",
+			"Transform": {
+				"Translation": {
+					"X": 362.1808166503906,
+					"Y": 55.0,
+					"Z": 130.88058471679688
+				}
+			},
+			"Layer": 3,
+			"Radius": 25.0,
+			"Height": 50.0
+		},
+		{
+			"ID": "4ca60dac4fcefcb280709698733e1e7e",
+			"TypeName": "Game.Enemy",
+			"ParentID": "12bfba5248b1df5795c7d385e253800f",
+			"V": {}
+		},
+		{
+			"ID": "73fd4fd14e76b1d7e554e9a60dca1825",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "12bfba5248b1df5795c7d385e253800f",
+			"Name": "Capsule",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -50.0,
+					"Z": 0.0
+				}
+			},
+			"Layer": 3,
+			"Model": "3f82e57744f57c28285150b646ad2198",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "735049d543d7a1fb7bc85196a8c751a6",
 						"ShadowsMode": 3,
 						"Visible": true,
 						"ReceiveDecals": true

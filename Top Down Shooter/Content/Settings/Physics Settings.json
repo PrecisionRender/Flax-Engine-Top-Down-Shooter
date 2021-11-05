@@ -21,8 +21,8 @@
 	"MaxSubsteps": 5,
 	"SupportCookingAtRuntime": false,
 	"LayerMasks": [
-		4294967295,
-		4294967295,
+		4294967293,
+		4294967294,
 		4294967295,
 		4294967295,
 		4294967295,

@@ -3,7 +3,7 @@ This is a simple top-down shooter game made in Flax Engine. Feel free to de-cons
 
 # Game Downloads
 [Win64](https://github.com/PrecisionRender/Flax-Engine-Top-Down-Shooter/releases/download/v1.0.0/Win64.zip),
-[Linux](https://github.com/PrecisionRender/Flax-Engine-Top-Down-Shooter)
+[Linux](https://github.com/PrecisionRender/Flax-Engine-Top-Down-Shooter/releases/download/v1.0.0/Linux.zip)
 
 # Instructions for Project Download
 1. Go to Code > Download ZIP

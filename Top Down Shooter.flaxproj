@@ -1,8 +1,8 @@
 {
 	"Name": "Top Down Shooter",
 	"Version": "1.0",
-	"Company": "My Company",
-	"Copyright": "",
+	"Company": "PrecisionRender",
+	"Copyright": "© 2021 PrecisionRender",
 	"GameTarget": "GameTarget",
 	"EditorTarget": "GameEditorTarget",
 	"References": [

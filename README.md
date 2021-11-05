@@ -2,8 +2,7 @@
 This is a simple top-down shooter game made in Flax Engine. Feel free to de-construct this project to use in your own projects! Just leave due credit, as stated in the MIT liscense! Game builds available for Windows 64-bit and Linux 64-bit.
 
 # Game Downloads
-[Win64](https://github.com/PrecisionRender/Flax-Engine-Top-Down-Shooter),
-[Win32](https://github.com/PrecisionRender/Flax-Engine-Top-Down-Shooter),
+[Win64](https://github.com/PrecisionRender/Flax-Engine-Top-Down-Shooter/releases/download/v1.0.0/Win64.zip),
 [Linux](https://github.com/PrecisionRender/Flax-Engine-Top-Down-Shooter)
 
 # Instructions for Project Download

@@ -9,4 +9,4 @@ This is a simple top-down shooter game made in Flax Engine. Feel free to de-cons
 1. Go to Code > Download ZIP
 2. Exctract ZIP file
 3. Open project in Flax Engine
-4. Go to File > Generate Sripts Project File
+4. Go to File > Generate Scripts Project File
